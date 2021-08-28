@@ -1,0 +1,22 @@
+{
+  "name": "owner-weichat-bot",
+  "version": "0.1.0",
+  "description": "bot for study",
+  "author": "sagar",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "^0.60.10",
+    "wechaty-puppet-padlocal": "^0.4.1",
+    "wechaty-puppet-wechat": "^0.28.4",
+    "wechaty-puppet-wechat4u": "^0.18.2"
+  },
+  "devDependencies": {
+    "request-promise": "^4.2.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  },
+  "scripts": {
+    "main": "./node_modules/.bin/ts-node src/main.ts"
+  }
+}
