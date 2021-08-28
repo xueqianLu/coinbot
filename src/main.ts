@@ -124,7 +124,6 @@ async function coinBot(coin){
                      "来源：MDEX" + `\n` + 
                      "价格：" + mdex + "USDT" + `\n` + 
                      "[MyTrade报价机器人，来MyTrade挂单交易，0手续费]" + `\n`
-            //result = "[币种]: " + response[each]["symbol"] +`\n` + "[价格]: " +response[each]["price_usd"] + '\n' + "[24小时涨幅]: " + response[each]["percent_change_24h"] + "%";
             break;
         }
     }
